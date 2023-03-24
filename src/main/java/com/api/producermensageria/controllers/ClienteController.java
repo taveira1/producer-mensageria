@@ -9,7 +9,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping("/teste-mensageria")
+@RequestMapping("/cliente-produzir-mensagem")
 public class ClienteController {
 
     @Autowired
@@ -23,10 +23,6 @@ public class ClienteController {
 
     }
 
-    @GetMapping
-    public String getMessages(){
-        return "mensagens da fila: .....";
-    }
 
 
 }
